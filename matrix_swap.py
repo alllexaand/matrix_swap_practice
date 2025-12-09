@@ -35,7 +35,7 @@ def main():
         if n <= 0 or m <= 0:
             raise ValueError("Количество строк и столбцов должно быть положительным числом.")
 
-        print("Введите матрицу:")
+        print("Введите элементы матрицы:")
         matrix = input_matrix(n, m)
 
         print("\nИсходная матрица:")
@@ -50,4 +50,5 @@ def main():
         print("Ошибка ввода:", e)
 
 if __name__ == "__main__":
+
     main()
